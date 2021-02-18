@@ -1,1 +1,47 @@
-<p>pages works!</p>
+<div id="main-wrapper">
+
+    <app-header></app-header>
+
+
+    <app-sidebar></app-sidebar>
+
+
+    <div class="page-wrapper">
+        <div class="container-fluid">
+
+            <!--  Breadcums  -->
+            <app-breadcrumbs></app-breadcrumbs>
+
+
+            <!--  mi sistema de rutas  -->
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <router-outlet></router-outlet>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer">
+                © 2021 PAPER Cloud Office - Creado por Huber Bermeo Rodas
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+
+
+        </div>
+
+    </div>
+
+
+</div>
